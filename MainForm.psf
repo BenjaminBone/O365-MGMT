@@ -268,10 +268,10 @@ $buttonConnect_Click={
 	New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.outlook.com/powershell/ -Credential $mycreds -Authentication Basic -AllowRedirection
 	Connect-MsolService -Credential $mycreds
 	
-	$textbox1.text = "Connected!"
+	$textbox1.text = "Connected to MSOL & Exchange Online!"
 }
 ]]></Code>
-  <Mode>0</Mode>
+  <Mode>1</Mode>
   <Assemblies>
     <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
     <Assembly>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
