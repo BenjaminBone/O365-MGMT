@@ -20,7 +20,8 @@
 #region Import Assemblies.....[]
 #More added
 #Adding some more stuff -- [] -- []
-# --- [] --- [] -- [Main Form] 
+# --- [] --- [] -- [Main Form]
+#Add new user forms 
 #----------------------------------------------
 [void][Reflection.Assembly]::Load('System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089')
 [void][Reflection.Assembly]::Load('System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089')
